@@ -1,54 +1,101 @@
-<!DOCTYPE html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="=viewport" content="width-device-width, initial-scale-1.0">
-  <title>Hoja de Vida</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
+<html lang="es">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GSanchez</title>
 </head>
-<link rel="stylesheet" href="style.css">
 
 <body>
-  <h1>Hoja de Vida</h1>
-  <div class="Info">
-    <h2>Información personal</h2>
-    <p>Nombre: Guillermo Antonio Sanchez Soler</p>
-    <p>Edad: 31 años</p>
-    <p>Email: guillermosanchezhn@gmail.com</p>
-    <p>Teléfono: +504 8781-4768</p>
-    <p>Ubicacion: Tegucigalpa</p>
-  </div>
-  
-  <div class="education">
-    <h2>Educación</h2>
-    <div class="education">
-      <h3>Universidad Centro Universitario Tecnologico CEUTEC</h3>
-      <p>Título: Licenciatura en Contaduria Pulica y Finanzas</p>
-      <p>Año de graduación: Actualmente </p>
-    </div>
-    <div class="education">
-      <h3>Colegio Instituto Cesar Zepeda</h3>
-      <p>Título: Perito Mercantil y Contador Publico</p>
-      <p>Año de graduación: 2009</p>
-    </div>
-  </div>
-  
-  <div class="experience">
-    <h2>Experiencia laboral</h2>
-    <div class="experience">
-      <h3>Empresa Municipalidad San Luis,Comayagua</h3>
-      <p>Cargo: Jefe de Auditoria Interna</p>
-      <p>Periodo: 2016 - 2023</p>
-    </div>
-    <div class="experience">
-      <h3>Empresa ClIFOR</h3>
-      <p>Cargo: Asitente de Contabiliad</p>
-      <p>Periodo: 2015</p>
-    </div>
-  </div>
-  
+    <section id="presentacion">
+        <H2>Guillermo Antonio Sanchez Soler</H2>
+        <div class="perfil">
+        <image src="image/foto.jpg"  width="200" title="Guillermo Sanchez">
+        </div>
+
+        <fieldset>
+            <legend><strong>Datos Personales</strong></legend>
+            <p><strong>Correo:</strong> <a href="mailto:guillermosanchezhn@gmail.com">guillermosanchezhn@gmail.com</a></p>
+            <p><strong>Edad:</strong> 31 años</p>
+            <p><strong>Ciudad:</strong> Tegucigalpa, Francisco Morazan</p>
+            <p><strong>Redes sociales:</strong></p>
+            <a title="GitHub" href="https://github.com/serveus-arch"><img src="image/github.png" width="30"a>
+            <a title="Linkedin" href="https://www.linkedin.com/in/guillermo-antonio-sanchez-a122a8255/"><img src="image/linkedin.png"width="30"a>  
+   
+        </fieldset>
+        <button class="favorite styled"
+        type="button">
+        Contactar
+        </button>
+    </section>
+
+    <section id="contenido">
+        <fieldset>
+            <legend><strong>EDUCACION</strong></legend>
+            <h3>Lic. Contaduria Publica y Finanzas - Centro Universitario Tecnologico (CEUTEC) </h3>
+            <p>Periodo: 2020-Actualidad</p>
+            <h3>Lic. Enseñanza de Lenguas Extranjeras Ingles - Universidad Pedagogica Nacional Francisco Morazan (UPNFM)</h3>
+            <p>Periodo: 2011-2014</p>
+            <h3>Perito Mercantil y Contador Publico - Instituo Cesar Zepeda</h3>
+            <p>Periodo: 2007-2009</p>
+        </fieldset>
+
+        <fieldset>
+            <legend><strong>EXPERIENCIA PROFESIONAL</strong></legend>
+            <h3>Jefe de Auditoria Interna - Alcaldia San Luis, Comayagua</h3>
+            <p>Periodo: 2016-2023</p>
+            <h3>Asistente Consultoria AgroEcologica - CLIFOR</h3>
+            <p>Periodo: 2015</p>
+        </fieldset>
+
+        <fieldset>
+            <legend><strong>IDIOMAS</strong></legend>
+            <div id="idioma">
+                <div class="col">
+                    <h3>Español</h3>
+                    <p>Nivel nativo</p>
+                </div>
+                <div class="col">
+                    <h3>Ingles</h3>
+                    <p>Nivel Avanzado </p>
+                </div>
+                <div class="col">
+                    <h3>Portugues</h3>
+                    <p>Nivel Basico</p>
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend><strong>HERRAMIENTAS</strong></legend>
+            <table>
+                <tr>
+                    <th scope="col"><strong>Lenguajes de programación</strong></th>
+                    <th scope="col"><strong>Entornos SQL</strong></th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>C++</li>
+                        <li>C#</li>
+                    </td>
+
+                    <td>
+                        <li>SQL Server</li>
+                        <li>Oracle</li>
+                        <li>HeidiSQL</li>
+                        <li>PostgreSQL</li>
+                    </td>
+
+                </tr>
+
+            </table>
+        </fieldset>
+    </section>
+
 </body>
+
 </html>
